@@ -1,5 +1,5 @@
 # es-payload
 elasticsearch payload plugin, support search and sort 
-环境设置：\n
-JDK15\n
-elasticsearch7.9.2\n
+环境设置：<br>
+JDK15<br>
+elasticsearch7.9.2<br>
