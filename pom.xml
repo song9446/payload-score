@@ -6,7 +6,7 @@
 
     <groupId>com.socialallstar.esplugin</groupId>
     <artifactId>es-payload</artifactId>
-    <version>1.0.1</version>
+    <version>7.9.2</version>
     <name>es-payload</name>
     <description>elasticsearch plugin that support search and filter payload</description>
 
