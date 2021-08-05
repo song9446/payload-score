@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.socialallstar.esplugin.PayloadPluginTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.798 sec <<< FAILURE!
+com.socialallstar.esplugin.PayloadPluginTest  Time elapsed: 0.796 sec  <<< ERROR!
+java.lang.RuntimeException: unable to install test security manager
+	at org.elasticsearch.bootstrap.BootstrapForTesting.<clinit>(BootstrapForTesting.java:173)
+	at org.elasticsearch.test.ESTestCase.<clinit>(ESTestCase.java:230)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:468)
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$2.run(RandomizedRunner.java:623)
+Caused by: java.lang.ClassNotFoundException: ${payloadscore.plugin.classname}
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:606)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:377)
+	at org.elasticsearch.bootstrap.BootstrapForTesting.<clinit>(BootstrapForTesting.java:169)
+	... 4 more
+

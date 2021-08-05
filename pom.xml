@@ -4,17 +4,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.socialallstar.esplugin</groupId>
-    <artifactId>es-payload</artifactId>
-    <version>7.9.2</version>
-    <name>es-payload</name>
-    <description>elasticsearch plugin that support search and filter payload</description>
+    <name>payload-score</name>
+    <groupId>com.ejn.esplugin</groupId>
+    <artifactId>payload-score</artifactId>
+    <version>0.1</version>
+    <packaging>jar</packaging>
+    <description>scoring script via float payload</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>15</maven.compiler.source>
-        <maven.compiler.target>15</maven.compiler.target>
-        <elasticsearch.version>7.9.2</elasticsearch.version>
+        <elasticsearch.version>7.14.0</elasticsearch.version>
+        <maven.compiler.source>16</maven.compiler.source>
+        <maven.compiler.target>16</maven.compiler.target>
+        <payloadscore.plugin.classname>com.ejn.esplugin.PayloadScore</payloadscore.plugin.classname>
     </properties>
 
     <dependencies>

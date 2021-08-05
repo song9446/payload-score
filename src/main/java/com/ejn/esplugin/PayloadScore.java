@@ -1,4 +1,4 @@
-package com.socialallstar.esplugin;
+package com.ejn.esplugin;
 
 
 import org.apache.logging.log4j.LogManager;
@@ -24,9 +24,9 @@ import java.util.Collection;
 import java.util.Map;
 import java.util.Set;
 
-public class PayloadPlugin extends Plugin implements ScriptPlugin {
+public class PayloadScore extends Plugin implements ScriptPlugin {
 
-    private static final Logger logger = LogManager.getLogger(PayloadPlugin.class);
+    private static final Logger logger = LogManager.getLogger(PayloadScore.class);
 
     @Override
     public ScriptEngine getScriptEngine(Settings settings,
