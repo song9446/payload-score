@@ -7,7 +7,7 @@
     <name>payload-score</name>
     <groupId>com.ejn.esplugin</groupId>
     <artifactId>payload-score</artifactId>
-    <version>0.1</version>
+    <version>0.0.2</version>
     <packaging>jar</packaging>
     <description>scoring script via float payload</description>
 
